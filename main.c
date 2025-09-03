@@ -3,12 +3,12 @@
 int Control(int altitude) {
   int thruster = 0;
 
-if (altitude > 0 && altitude <= 100 )
+  if (altitude > 0 && altitude <= 100)
     thruster = 1;
-else 
+  else
     thruster = 0;
 
-  return thruster; 
+  return thruster;
 }
 
 void Test(int altitude) {
