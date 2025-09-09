@@ -1,3 +1,7 @@
+// main.c
+/* Land a lunarlander on moon by conditionally turning on and off thruster
+according to altitude */
+
 #include <stdio.h>
 
 int Control(int altitude) {
