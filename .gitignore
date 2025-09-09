@@ -1,0 +1,23 @@
+main.dSYM/Contents/Resources/DWARF/main
+main.dSYM/Contents/Info.plist
+main.dSYM/Contents/Resources/Relocations/aarch64/main.yml
+.DS_Store
+a.out
+
+# Attempt at making a gitignore file
+
+# Ignore compiled files
+*.o
+*.out
+*.exe
+
+# Ignore debug folders
+*.dSYM/
+
+# Ignore VS Code settings
+.vscode/
+
+#ignore DS_store file (I think macOS finder thing??)
+.DS_Store
+
+.DS_Store
